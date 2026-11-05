@@ -1,19 +1,2 @@
-# wasm_rust
+# Assembly
 
-
-## install
-
-```
-cargo install trunk
-```
-## build
-
-```
-wasm-pack build --target web
-```
-## start
-
-
-```
-trunk serve
-```# wasm_rust
