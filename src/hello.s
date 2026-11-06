@@ -15,7 +15,9 @@ Reset_Handler:
     mov r4,#1
     mov r5,#2
     add r6,r4,r5 @r6 = r4+r5
-    mov r2,#0x1234     @0x12345부터 안댐
+    @mov r2,#0x1234     @0x12345부터 안댐
+    movw r2,#0x2345     @32비트까지만댐
+    movt r2,#0x0001
     ldr r3,=0x12345678 @Pseudo-instruction(의사 명령어)
     MOV R0, #4          @ SYS_WRITE0
     LDR R1, =message    @ 문자열 주소
