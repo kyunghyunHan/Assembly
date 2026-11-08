@@ -1,4 +1,6 @@
 /target
+/build/
 *.elf
 *.ld
+!linker.ld
 *.o

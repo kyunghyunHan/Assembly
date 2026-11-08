@@ -4,6 +4,10 @@
 >
 > **학습 목표:** 어셈블리 명령어(Instruction), 어셈블러 지시어(Directive), 레이블(Label)을 구분하고 Startup 코드를 해석한다.
 
+## 독립 실습 16개
+
+각 실습 소스는 [`src/`](./src/)에 있고 공통 링커 스크립트는 [`linker.ld`](./linker.ld)입니다. 예를 들어 `./run.sh 01-elf-map-bin.s`처럼 실행할 소스 파일명을 지정합니다. 전체 주제와 실행 방법은 [실습 안내](./lessons.md)를 참고하세요.
+
 ## 1. Assembly란?
 
 **어셈블리어(Assembly Language)**는 CPU의 기계어 명령과 밀접하게 대응하는 저수준 프로그래밍 언어이다.
